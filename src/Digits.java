@@ -14,6 +14,7 @@ public class Digits
      */
     public Digits(int num)
     {
+        digitList = new ArrayList<Integer>();
         int length = Integer.toString(num).length();
         double tens = Math.pow(10, length - 1);
         for(int i = 1; i <= length; i++)
